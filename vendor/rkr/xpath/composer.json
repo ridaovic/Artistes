@@ -1,0 +1,27 @@
+{
+    "name": "rkr/xpath",
+    "description": "Human-friendly xpath handling",
+    "license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+    "authors": [{
+		"name": "ron",
+		"email": "ron.kirschler@gmail.com"
+	}],
+    "require": {
+		"rkr/streams": "0.0.1"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kir\\XML\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Kir\\XML\\": ["src/", "tests/"]
+		}
+	}
+}

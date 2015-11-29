@@ -1,0 +1,495 @@
+# Webalizer V2.23-05 Incremental Data - 07/31/2015 14:42:44
+2015 7 31 14 42 44
+1691 1200 38 108 13 11 10064351 399 70 0 0 0
+1 49 204 1 31
+29 6 81675 5 9 6 0 0
+376 277 1415923 3 178 6 0 0
+76 76 651617 1 21 1 0 0
+64 27 241098 2 2 2 0 0
+1 0 912 1 1 1 0 0
+65 64 587935 1 11 1 0 0
+235 144 1313782 3 56 11 0 0
+70 62 631405 2 9 2 0 0
+48 7 77339 2 7 3 0 0
+5 0 3157 2 3 3 0 0
+20 19 280533 1 1 1 0 0
+0 0 0 0 0 0 0 0
+105 88 776986 1 17 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+173 97 1039454 3 12 3 0 0
+135 104 792330 3 39 16 0 0
+63 59 677862 3 4 4 0 0
+44 40 398241 3 4 3 0 0
+92 87 670195 2 21 4 0 0
+41 40 395505 1 1 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+49 3 28402 1 3 1 0 0
+0 0 0 0 0 0
+120 80 840442 8 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 912 1 0 0
+2 0 1824 2 0 0
+0 0 0 0 0 0
+41 25 223044 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+117 116 1047122 22 0 0
+84 65 572382 4 0 0
+2 0 1824 2 0 0
+191 117 1071536 53 0 0
+163 91 631790 31 0 0
+167 123 1330099 14 0 0
+72 67 563880 22 0 0
+22 16 189789 10 0 0
+100 9 101799 9 0 0
+227 151 901058 83 0 0
+115 107 416108 98 0 0
+89 81 799417 3 0 0
+70 64 591603 16 0 0
+108 88 779722 20 0 0
+0
+0
+0
+1200
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+405
+0
+0
+0
+0
+0
+0
+38
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+48
+0
+0
+0
+0
+0
+# -urls- 
+/restEvenments.php
+0 5 0 2042 0 0 0 0
+/js/slick.js
+0 4 0 22911 0 0 0 0
+/js/jquery.min.js
+0 28 0 574184 0 0 0 0
+/images/logoeco.png
+1 25 0 321088 0 0 0 0
+/restOeuvres.php
+0 24 0 23683 0 0 0 0
+/img/logoeco.png
+1 24 0 294636 0 0 0 0
+/evenment.php
+0 1 0 10726 0 0 0 0
+/autoload_artistes.php
+0 8 0 4983 0 0 0 0
+/autoload_events.php
+0 6 0 1749 0 0 0 0
+/js/zoombox.js
+0 4 0 10394 0 0 0 0
+/images/google2.png
+1 25 0 24944 0 0 0 0
+/img/loading.gif
+1 4 0 15362 0 0 0 0
+/js/jquery-ui.js
+0 27 0 1716276 0 0 0 0
+/css/img/close.png
+1 1 0 2203 0 0 0 0
+/js/nice_select.js
+0 29 0 35160 0 0 0 0
+/images/call.png
+1 3 0 32047 0 0 0 0
+/js/modernizr.js
+0 5 0 32713 0 0 0 0
+/images/survol2.png
+1 10 0 22923 0 0 0 0
+/js/jquery.waterwheelCarousel.js
+0 8 0 37449 0 0 0 0
+/js/bootstrap.min.js
+0 28 0 139594 0 0 0 0
+/css/img/next.png
+1 1 0 2731 0 0 0 0
+/images/arrow3.png
+1 10 0 12599 0 0 0 0
+/images/fax.png
+1 3 0 33499 0 0 0 0
+/css/img/loader.png
+1 1 0 12707 0 0 0 0
+/images/logo.png
+1 25 0 61610 0 0 0 0
+/css/nice_select.css
+0 28 0 22015 0 0 0 0
+/favicon.ico
+0 21 0 153511 0 0 0 0
+/images/facebook-footer.png
+1 25 0 26924 0 0 0 0
+/images/pre.png
+1 4 0 45008 0 0 0 0
+/js/app.js
+0 30 0 18922 0 0 0 0
+/images/email.png
+1 3 0 33107 0 0 0 0
+/js/autocomplete_ar2index.js
+0 26 0 8294 0 0 0 0
+/images/hund.png
+1 4 0 3931 0 0 0 0
+/images/alaune.png
+1 24 0 89582 0 0 0 0
+/images/newsletter2.png
+1 2 0 2785 0 0 0 0
+/images/twitter3.png
+1 25 0 34053 0 0 0 0
+/images/like.png
+1 24 0 30372 0 0 0 0
+/js/jssor.slider.js
+0 4 0 86475 0 0 0 0
+/images/Preloader_8.gif
+1 10 0 740710 0 0 0 0
+/images/facebook1.png
+1 25 0 30883 0 0 0 0
+/js/jquery-paged-scroll.js
+0 12 0 33755 0 0 0 0
+/js/jquery-1.9.1.min.js
+0 6 0 176434 0 0 0 0
+/autoload_oeuvres_search.php
+0 2 0 893 0 0 0 0
+/js/jquery-1.9.0.min.js
+0 12 0 267195 0 0 0 0
+/autocomplete_event.php
+0 3 0 995 0 0 0 0
+/js/autocomplete_event.js
+0 28 0 20332 0 0 0 0
+/images/newsletter1.png
+1 2 0 2785 0 0 0 0
+/css/ajax-loader.gif
+1 4 0 6955 0 0 0 0
+/css/style.css
+0 31 0 184284 0 0 0 0
+/oeuvre.php
+0 17 0 272446 0 0 0 0
+/images/twitter-footer.png
+1 25 0 26996 0 0 0 0
+/css/fonts/slick.woff
+0 2 0 3372 0 0 0 0
+/autoload_artistes_responsive.php
+0 1 0 577 0 0 0 0
+/js/main.js
+0 4 0 2110 0 0 0 0
+/images/newsletter.png
+1 25 0 285806 0 0 0 0
+/images/facebook.png
+1 25 0 41760 0 0 0 0
+/restArtistes.php
+0 6 0 3885 0 0 0 0
+/autoload_oeuvres_responsive.php
+0 13 0 7412 0 0 0 0
+/js/autocomplete_art_oeuvre.js
+0 28 0 12811 0 0 0 0
+/css/bootstrap.min.css
+0 28 0 316886 0 0 0 0
+/css/datepicker.css
+0 28 0 25643 0 0 0 0
+/oeuvres.php
+0 18 0 239052 2 0 0 0
+/js/scripts.js
+0 4 0 3081 0 0 0 0
+/js/autocomplete_ar.js
+0 28 0 16466 0 0 0 0
+/images/linkedin.png
+1 4 0 9385 0 0 0 0
+/images/twitter.png
+1 25 0 46906 0 0 0 0
+/images/right_blockquote.png
+1 24 0 40561 0 0 0 0
+/fonts/glyphicons-halflings-regular.woff
+0 22 0 427928 0 0 0 0
+/images/face.png
+1 4 0 15035 0 0 0 0
+/js/autocomplete_oeuvre.js
+0 28 0 9788 0 0 0 0
+/css/img/prev.png
+1 1 0 2719 0 0 0 0
+/ajax-loader.gif
+1 4 0 8698 0 0 0 0
+/images/twit.png
+1 4 0 14330 0 0 0 0
+/images/rss-footer.png
+1 25 0 31621 0 0 0 0
+/images/home.png
+1 3 0 33692 0 0 0 0
+/js/jssor.js
+0 4 0 57138 0 0 0 0
+/img/b13.png
+1 4 0 3574 0 0 0 0
+/engine1/style.css
+0 4 0 10150 0 0 0 0
+/js/modernizrdetail.js
+0 4 0 32699 0 0 0 0
+/css/jquery-ui.css
+0 28 0 167505 0 0 0 0
+/images/google.png
+1 25 0 27647 0 0 0 0
+/images/arrow1.png
+1 9 0 10028 0 0 0 0
+/js/autocomplete_ar2.js
+0 12 0 4102 0 0 0 0
+/autocomplete_art_oeuvre.php
+0 12 0 17153 0 0 0 0
+/
+0 45 0 298658 46 13 0 0
+/js/bootstrap-datepicker.js
+0 24 0 66970 0 0 0 0
+/js/autocomplete_all.js
+0 28 0 12715 0 0 0 0
+/evenments.php
+0 5 0 37613 0 0 0 0
+/css/styles.css
+0 4 0 9643 0 0 0 0
+/images/survol.png
+1 9 0 14085 0 0 0 0
+/autoload_oeuvres.php
+0 17 0 10136 0 0 0 0
+/artistes.php
+0 18 0 202383 3 2 0 0
+/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+1 24 0 11364 0 0 0 0
+/autocomplete_art.php
+0 48 0 15193 1 2 0 0
+/images/arrow2.png
+1 5 0 6896 0 0 0 0
+/images/backtest.jpg
+1 28 0 662894 0 0 0 0
+/contact.php
+0 4 0 23514 0 3 0 0
+/js/autocomplete_arTags1.js
+0 8 0 6191 0 0 0 0
+/loader1.gif
+1 13 0 134376 0 0 0 0
+/images/google+.png
+1 4 0 9503 0 0 0 0
+/images/sui.png
+1 4 0 45089 0 0 0 0
+/autocomplete_all.php
+0 87 0 104461 11 11 0 0
+/artiste.php
+0 5 0 58436 0 0 0 0
+/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+1 1 0 639 0 0 0 0
+/images/band.png
+1 9 0 5484 0 0 0 0
+/css/MontserratAlternates-Bold.ttf
+0 26 0 521867 0 0 0 0
+/images/left_blockquote.png
+1 24 0 40399 0 0 0 0
+/images/arrow.png
+1 3 0 1925 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+41.251.180.72
+0 191 117 1071536 9 1436276332 0 0
+/contact.php
+196.206.135.200
+0 41 40 395505 1 1437752149 0 0
+/
+41.251.46.220
+0 50 8 81277 2 1436407092 0 0
+/evenments.php
+196.206.135.77
+0 20 19 280533 1 1436626995 0 0
+/
+105.157.231.35
+0 317 237 1016053 4 1435868978 0 0
+/oeuvre.php
+105.155.41.253
+0 41 40 395414 1 1435872812 0 0
+/
+41.143.239.139
+0 71 48 205597 12 1437596760 0 0
+/
+196.206.151.59
+0 60 56 583977 3 1437587293 0 0
+/autoload_oeuvres_responsive.php
+41.250.28.176
+0 3 2 19202 1 1436297773 0 0
+/
+41.251.229.243
+0 1 0 912 1 1436073199 0 0
+/
+41.250.155.197
+0 5 0 4560 2 1436484572 0 0
+/
+41.143.18.245
+0 2 0 1824 1 1435793382 0 0
+-
+196.217.158.98
+0 49 3 28402 1 1438353764 0 0
+/autocomplete_art.php
+105.157.34.60
+0 1 0 912 1 1436543666 0 0
+/
+41.141.47.129
+0 105 88 776986 1 1436831688 0 0
+/oeuvre.php
+41.143.8.202
+0 2 0 1824 1 1437700122 0 0
+/
+41.143.245.162
+0 65 64 587935 1 1436220489 0 0
+/artistes.php
+105.154.9.169
+0 20 5 64293 1 1435750648 0 0
+-
+41.143.17.200
+0 2 0 1824 1 1435726865 0 0
+-
+41.251.79.128
+0 4 0 2245 2 1436550813 0 0
+/
+196.206.144.170
+0 50 48 546606 1 1437442760 0 0
+/oeuvres.php
+105.157.50.189
+0 1 0 912 1 1437654551 0 0
+/
+41.141.136.11
+0 18 0 4456 1 1435863344 0 0
+-
+105.155.97.180
+0 41 25 223044 1 1436254225 0 0
+/
+196.206.133.64
+0 61 59 676038 2 1437678718 0 0
+/
+41.141.148.42
+0 41 40 395505 1 1437858504 0 0
+/
+41.251.156.206
+0 101 101 870850 2 1435972876 0 0
+/
+41.251.163.170
+0 4 0 2756 1 1437604521 0 0
+/
+196.217.74.115
+0 51 47 274690 3 1437841173 0 0
+/oeuvres.php
+196.206.139.212
+0 41 40 395505 1 1437479455 0 0
+/
+41.142.12.186
+0 39 2 21865 1 1436023294 0 0
+/
+105.159.143.97
+0 41 40 395505 1 1437929732 0 0
+/
+105.158.86.40
+0 3 1 11910 1 1435769946 0 0
+-
+196.217.156.195
+0 1 0 912 1 1437740840 0 0
+/
+41.250.24.39
+0 63 61 622907 1 1436370847 0 0
+/evenments.php
+196.206.136.171
+0 2 0 1824 2 1435766157 0 0
+-
+41.250.105.212
+0 1 0 912 1 1437692012 0 0
+/
+41.141.124.43
+0 82 9 97343 1 1437504267 0 0
+/oeuvre.php
+# End Of Table - sites (monthly)
+# -sites- (daily)
+196.217.158.98
+0 49 3 28402 1 1438353764 0 0
+/autocomplete_art.php
+# End Of Table - sites (daily)
+# -referrers- 
+http://devart.ma/evenments.php
+1 39
+http://devart.ma/css/style.css
+1 112
+http://devart.ma/artistes.php
+1 80
+http://devart.ma/oeuvre.php
+1 87
+http://devart.ma/
+1 905
+- (Direct Request)
+0 100
+http://devart.ma/css/bootstrap.min.css
+1 47
+http://devart.ma/artiste.php
+1 19
+http://devart.ma/oeuvres.php
+1 220
+http://devart.ma/index.php
+1 6
+http://devart.ma/contact.php
+1 43
+http://devart.ma/css/styles.css
+1 9
+http://devart.ma/css/jquery-ui.css
+1 24
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36
+0 20
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36
+0 49
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12
+0 105
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:38.0) Gecko/20100101 Firefox/38.0
+0 377
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36 OPR/30.0.1835.8
+0 21
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:39.0) Gecko/20100101 Firefox/39.0
+0 355
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36
+0 210
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36
+0 284
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36
+0 52
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+0 108
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0
+0 110
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
