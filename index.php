@@ -22,9 +22,9 @@
         <![endif]--> 
         <title>Oeuvres d'art Maroc : Tableaux, Sculptures, Photos et Arts d'exception | Vos artistes</title>
         <meta name="keywords" content="Artistes, Maroc, Peinture, Vente, Art, Galerie, Exposition, Valès Edmond">
-		<meta name="description" content="Le site www.vosartistes.com expose une collection d’œuvres d'art (Peinture, Sculpture, Arts d'exception...)  Cet espace permet de les mettre en valeur et les présenter à la vente au niveau marocain et à l'international.  Les grands noms de l'art pictural au Maroc y sont présentés, ainsi que les nouvelles tendances qui dynamisent notre monde artistique.">
-		<link rel="shortcut icon" href="../sites/all/themes/exupery/favicon.png" type="image/x-icon">
-		<link rel="alternate" href="http://www.vosartistes.com/node/1">
+		    <meta name="description" content="Le site www.vosartistes.com expose une collection d’œuvres d'art (Peinture, Sculpture, Arts d'exception...)  Cet espace permet de les mettre en valeur et les présenter à la vente au niveau marocain et à l'international.  Les grands noms de l'art pictural au Maroc y sont présentés, ainsi que les nouvelles tendances qui dynamisent notre monde artistique.">
+		    <link rel="shortcut icon" href="../sites/all/themes/exupery/favicon.png" type="image/x-icon">
+		    <link rel="alternate" href="http://www.vosartistes.com/node/1">
         <script src="js/jquery.min.js"></script>
         <script src="js/app.js"></script>
         <script src="js/jquery-ui.js"></script>
@@ -38,72 +38,45 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/nice_select.js"></script>
         <link href="css/nice_select.css" rel="stylesheet">
-		<!-- translator -->
-		<link rel="stylesheet" type="text/css" href="translator/styles/jquery.translator.css" />
-		<script type="text/javascript" src="translator/javascript/jquery.translator.min.js"></script>
-		<script type="text/javascript">
-							$.translator.ready(function() {
-								
-								$(".translator").translator({
-									excludeSelector: ".not-translate",
-									names: false,
-									cookie: true,
-									from: 'fr',
-									onComplete: function(){
-										$('.usa').html("");
-										var $button = $('.translator-completed-left').clone();
-										$('.usa').html($button);
+    		<!-- translator -->
+    		<link rel="stylesheet" type="text/css" href="translator/styles/jquery.translator.css" />
+    		<script type="text/javascript" src="translator/javascript/jquery.translator.min.js"></script>
+    		<script type="text/javascript">
+    							$.translator.ready(function() {
+    								
+    								$(".translator").translator({
+    									excludeSelector: ".not-translate",
+    									names: false,
+    									cookie: true,
+    									from: 'fr',
+    									onComplete: function(){
+    										$('.usa').html("");
+    										var $button = $('.translator-completed-left').clone();
+    										$('.usa').html($button);
 
-									}
-								});
-								$('.usa').html("");
-										var $button = $('.translator-completed-left').clone();
-										$('.usa').html($button);
-							});
-		</script>
-		<!-- translator -->
+    									}
+    								});
+    								$('.usa').html("");
+    										var $button = $('.translator-completed-left').clone();
+    										$('.usa').html($button);
+    							});
+    		</script>
+		    <!-- translator -->
 
-    <script type="text/javascript" > $('document').ready(function(){ $('.change').niceselect(); }) </script>
-    <style>
-.ui-autocomplete {
-    max-height: 400px;
-    overflow-y: auto;
-  
-    overflow-x: hidden;
-  }
-  
-  * html .ui-autocomplete {
-    height: 100px;
-  }
-.ui-autocomplete-category {
-font-weight: bold;
-padding: .2em .4em;
-margin: .8em 0 .2em;
-line-height: 1.5;
-}
-</style>
+        <script type="text/javascript" > $('document').ready(function(){ $('.change').niceselect(); }) </script>
 
+        
         <?php include('search.php'); include('searchevent.php'); include('searchartiste.php');
               $artved = requete_artiste('{"query":{"bool":{"must":[],"must_not":[{"constant_score":{"filter":{"missing":{"field":"artist.oeuvres"}}}},{"constant_score":{"filter":{"missing":{"field":"artist.title"}}}}],"should":[{"match_all":{}}]}},"from":0,"size":3,"sort":[],"facets":{}}');
               $oeuvretend = requete_nouveautes('{"query":{"bool":{"must":[{"match_all":{}}],"must_not":[],"should":[]}},"from":0,"size":5,"sort":[{"lastModified":{"order":"asc"}},{"executionTime":{"order":"desc"}}],"facets":{}}');
        ?>
-   
-	<!--google analytics-->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-65895713-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-	<!--google analytics-->
+    
     </head>
 	
     <body>
 	<div class="translator">
+    
+    <!-- facebook button -->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -113,298 +86,266 @@ line-height: 1.5;
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     
-        <div id="bloc_page">
-        	<a href="http://www.vosartistes.com/liste-tableaux" style="cursor:pointer;"><div id="backtov1">Retourner à la version originale</div></a>
-            <header>
-                   <div id="header_top">
-                     <div id="logo">
-						<a href='index.php'><img src="images/logo.png"></a> 
-                     </div>
+<div id="bloc_page">
+  	<a href="http://www.vosartistes.com/liste-tableaux" style="cursor:pointer;">
+      <div id="backtov1">Retourner à la version originale</div>
+    </a>
+  
+  <header>
+    
+    <div id="header_top">
+        
+        <div id="logo">
+					<a href='index.php'><img src="images/logo.png"></a> 
+        </div>
                      
-                      <div id="header_left">
-						<div id="lang">
+      <div id="header_left">
+						
+            <!-- translator -->
+            <div id="lang">
 							<div class="btn-group">
 							  <div class="btn-group">
 								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
 								  Langue
 								  <span class="caret"></span>
 								</button>
-								<!-- translator -->
 								<ul class="dropdown-menu">
 									<li><a href="javascript:;" title="French" class="translator-language-fr"><img src="translator/images/French.gif" alt="French" /></a></li>
 									<li><a href="javascript:;" title="English" class="translator-language-en"><img src="translator/images/English.gif" alt="English" /></a></li>
 									<li><a href="javascript:;" title="Spanish" class="translator-language-es"><img src="translator/images/Spanish.gif" alt="Spanish" /></a></li>
 									<li><a href="javascript:;" title="Arabic" class="translator-language-ar"><img src="translator/images/Arabic.gif" alt="Arabic" /></a></li>
 								</ul>
-								
-								
-								<!-- translator -->
-								<!--<ul class="dropdown-menu">
-								  <li><a href="#">fr</a></li>
-								  <li><a href="#">en</a></li>
-								</ul>-->
-							  </div>
+								</div>
 							</div>
 						</div>
-                      <div id="newsletter">
-                      <form class="newsletterform" action="#">
-                      <input type="text" placeholder="Newsletter">
-                      <button class="btn btn-default" type="submit"><i class="fa fa-check"></i></button>
-                      </form> </div>
+
+            <!-- newsletter bloc -->
+            <div id="newsletter">
+            <form class="newsletterform" action="#">
+            <input type="text" placeholder="Newsletter">
+            <button class="btn btn-default" type="submit"><i class="fa fa-check"></i></button>
+            </form> </div>
 
 
-                       <nav>
-                            <div id='cssmenu'>
-                            <ul>
-                               <li class='active'><a href='#'><span>Accueil</span></a></li>
-                               <li><a href='artistes.php'><span>Artistes</span></a></li>
-                               <li><a href='oeuvres.php'><span>Oeuvres</span></a></li>
-                               <li><a href='evenments.php'><span>Actualités & Evénements</span></a></li>
-                               <li><a href='#'><span>Espace Membres</span></a></li>
-                               <li class='last'><a href='contact.php'><span>Contact</span></a></li>
-                            </ul>
-                            </div>
-                    </nav>
-                     </div> <br>
-                   </div> 
+            <!-- menu bloc -->
+            <nav>
+                <div id='cssmenu'>
+                  <ul>
+                     <li class='active'><a href='#'><span>Accueil</span></a></li>
+                     <li><a href='artistes.php'><span>Artistes</span></a></li>
+                     <li><a href='oeuvres.php'><span>Oeuvres</span></a></li>
+                     <li><a href='evenments.php'><span>Actualités & Evénements</span></a></li>
+                     <li><a href='#'><span>Espace Membres</span></a></li>
+                     <li class='last'><a href='contact.php'><span>Contact</span></a></li>
+                  </ul>
+                </div>
+            </nav>
+      
+      </div> 
+      <br>
+    
+    </div> 
 
                
-                   <div id="header_bottom">
+    <div id="header_bottom">
                      
+     <div style="float: left;width: 500px;">
+                    
+          <div id="search">
                        
-                     <div style="float: left;width: 500px;">
+            <!--All -->
+            <form class="searchform" id="aaa"  action="results.php" method="post">
+              <input style="width:454px;" type="text" placeholder=" Artiste, Evènement, Œuvre..." id="search_all" name="search_a_o">
+      			  <input  type="hidden" value="aaa" name="form"/>
+              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+
+            <!-- Artistes Oeuvres -->
+            <form class="searchform"  action="results.php" method="post" id="bbb" style="display:none">
+              <input style="width:226px;" type="text" placeholder=" Artiste, Œuvre"  id="search_a_o" name="search_a_o"><span>|</span>
+              <input  type="hidden" value="bbb" name="form"/>
+              <select class="select" style="width:125px;" name="type_o">
+                <option value="All">Type d’oeuvre</option>
+                <option value="tableau">Tableaux</option>
+                <option value="sculpture">Sculptures</option>
+                <option value="photographie">Photographies</option>
+                <option value="bijoux">Bijoux</option>
+                <option value="livre">Livres</option>
+                <option value="decoration">Objets de décoration</option>
+                <option value="caftan">Caftans</option>
+                <option value="meuble">Meubles</option>
+                <option value="tapis">Tapis</option>
+              </select><span>|</span>
+
+              <select class="select" style="width:75px;" name="style_o">
+                <option>Style</option>
+                <option>Moderne</option>
+                <option>Figuratif</option>
+                <option>Abstrait</option>
+                <option value="naif" >Naif/Primitif</option>
+              </select>
+
+              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            
+            <!-- Artistes -->
+            <form class="searchform"  action="results.php" method="post" id="eee" style="display:none">
+              <input style="width:226px;" type="text" placeholder=" Artiste"  id="tags" name="tags"><span>|</span>
+						  <input  type="hidden" value="eee" name="form"/>
+              <select id="typeA" class="select" style="width:125px;" name="type_o">
+                <option value="All">Type d’oeuvre</option>
+                <option value="tableau">Tableaux</option>
+                <option value="sculpture">Sculptures</option>
+                <option value="photographie">Photographies</option>
+                <option value="bijoux">Bijoux</option>
+                <option value="livre">Livres</option>
+                <option value="decoration">Objets de décoration</option>
+                <option value="caftan">Caftans</option>
+                <option value="meuble">Meubles</option>
+                <option value="tapis">Tapis</option>
+              </select><span>|</span>
+
+              <select id="styleA" class="select" style="width:75px;" name="style_o">
+                <option value="">Style</option>
+                <option>Moderne</option>
+                <option>Figuratif</option>
+                <option>Abstrait</option>
+                <option value="naif" >Naif/Primitif</option>
+              </select>
+
+              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </form>
                       
+            <!-- Oeuvres -->
+            <form class="searchform"  action="results.php" method="post" id="fff" style="display:none">
+              <input style="width:226px;" type="text" placeholder=" Œuvre"  id="search_o" name="search_o"><span>|</span>
+							<input  type="hidden" value="fff" name="form"/>
+              <select class="select" style="width:125px;" id="type" name="type_o">
+                <option value="All">Type d’oeuvre</option>
+                <option value="tableau">Tableaux</option>
+                <option value="sculpture">Sculptures</option>
+                <option value="photographie">Photographies</option>
+                <option value="bijoux">Bijoux</option>
+                <option value="livre">Livres</option>
+                <option value="decoration">Objets de décoration</option>
+                <option value="caftan">Caftans</option>
+                <option value="meuble">Meubles</option>
+                <option value="tapis">Tapis</option>
+              </select><span>|</span>
 
-                      <div id="search">
-                       <!--All -->
-                      <form class="searchform" id="aaa"  action="results.php" method="post">
-                      <input style="width:454px;" type="text" placeholder=" Artiste, Evènement, Œuvre..." id="search_all" name="search_a_o">
-              							  <input  type="hidden" value="aaa" name="form"/>
-        
-                     
-                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                      </form>
+              <select id="style2" class="select" style="width:75px;" name="style_o">
+                <option value="">Style</option>
+                <option>Moderne</option>
+                <option>Figuratif</option>
+                <option>Abstrait</option>
+                <option value="naif" >Naif/Primitif</option>
+              </select>
+              
+              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </form>
 
-                      <!-- Artistes Oeuvres -->
-                       <form class="searchform"  action="results.php" method="post" id="bbb" style="display:none">
-                      <input style="width:226px;" type="text" placeholder=" Artiste, Œuvre"  id="search_a_o" name="search_a_o"><span>|</span>
-                      
-
-							  <input  type="hidden" value="bbb" name="form"/>
-
-                      <select class="select" style="width:125px;" name="type_o">
-                          <option value="All">Type d’oeuvre</option>
-                                              <option value="tableau">Tableaux</option>
-                                              <option value="sculpture">Sculptures</option>
-                                              <option value="photographie">Photographies</option>
-                                              <option value="bijoux">Bijoux</option>
-                                              <option value="livre">Livres</option>
-                                              <option value="decoration">Objets de décoration</option>
-                                              <option value="caftan">Caftans</option>
-                                              <option value="meuble">Meubles</option>
-                                              <option value="tapis">Tapis</option>
-                      </select>
-                      <span>|</span>
-
-                      <select class="select" style="width:75px;" name="style_o">
-                          <option>Style</option>
-                          <option>Moderne</option>
-                          <option>Figuratif</option>
-                          <option>Abstrait</option>
-                          <option value="naif" >Naif/Primitif</option>
-                      </select>
-
-                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                      </form>
-                      <!-- Artistes -->
-                        <form class="searchform"  action="results.php" method="post" id="eee" style="display:none">
-                              <input style="width:226px;" type="text" placeholder=" Artiste"  id="tags" name="tags"><span>|</span>
-							  <input  type="hidden" value="eee" name="form"/>
-
-
-
-                              <select id="typeA" class="select" style="width:125px;" name="type_o">
-                                              <option value="All">Type d’oeuvre</option>
-                                              <option value="tableau">Tableaux</option>
-                                              <option value="sculpture">Sculptures</option>
-                                              <option value="photographie">Photographies</option>
-                                              <option value="bijoux">Bijoux</option>
-                                              <option value="livre">Livres</option>
-                                              <option value="decoration">Objets de décoration</option>
-                                              <option value="caftan">Caftans</option>
-                                              <option value="meuble">Meubles</option>
-                                              <option value="tapis">Tapis</option>
-                                              
-                              </select>
-                              <span>|</span>
-
-                              <select id="styleA" class="select" style="width:75px;" name="style_o">
-                                  <option value="">Style</option>
-                                  <option>Moderne</option>
-                                  <option>Figuratif</option>
-                                  <option>Abstrait</option>
-                                  <option value="naif" >Naif/Primitif</option>
-                              </select>
-
-                              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                          </form>
-                      <!-- Oeuvres -->
-
-                      <form class="searchform"  action="results.php" method="post" id="fff" style="display:none">
-                              <input style="width:226px;" type="text" placeholder=" Œuvre"  id="search_o" name="search_o"><span>|</span>
-							  <input  type="hidden" value="fff" name="form"/>
-
-
-
-                               <select class="select" style="width:125px;" id="type" name="type_o">
-                                              <option value="All">Type d’oeuvre</option>
-                                              <option value="tableau">Tableaux</option>
-                                              <option value="sculpture">Sculptures</option>
-                                              <option value="photographie">Photographies</option>
-                                              <option value="bijoux">Bijoux</option>
-                                              <option value="livre">Livres</option>
-                                              <option value="decoration">Objets de décoration</option>
-                                              <option value="caftan">Caftans</option>
-                                              <option value="meuble">Meubles</option>
-                                              <option value="tapis">Tapis</option>
-                                              
-                              </select>
-                              <span>|</span>
-
-                              <select id="style2" class="select" style="width:75px;" name="style_o">
-                                  <option value="">Style</option>
-                                  <option>Moderne</option>
-                                  <option>Figuratif</option>
-                                  <option>Abstrait</option>
-                                  <option value="naif" >Naif/Primitif</option>
-                              </select>
-
-                              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                          </form>
-
-                      <!-- evenments -->
-                        <form class="searchform"  action="results.php" method="post" id="ccc">
-                              <input type="text" placeholder="Evénement" style="width:120px;" id="search_event" name="search_event"><span>|</span>
+            <!-- evenments -->
+            <form class="searchform"  action="results.php" method="post" id="ccc">
+                <input type="text" placeholder="Evénement" style="width:120px;" id="search_event" name="search_event"><span>|</span>
 							  <input  type="hidden" value="ccc" name="form"/>
+                <select id="typeEvent" class="select" style="width:130px;" name="type_ev">
+                  <option>Type d’événement</option>
+                  <option>Vernissage</option>
+                  <option>Exposition photo</option>
+                  <option>Festival</option>
+                  <option>Conférence et Galas</option>
+                  <option>Salon</option>
+                  <option>Autres</option>
+                </select><span>|</span>
+                <input type="text" placeholder=" debut" value="" id="dpd1" style="width:80px;" name="debut">
+                <span>|</span>
+                <input type="text" placeholder=" fin" value="" id="dpd2" style="width:80px;" name="fin">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </form>
 
-                              <select id="typeEvent" class="select" style="width:130px;" name="type_ev">
-
-                                  <option>Type d’événement</option>
-                                  <option>Vernissage</option>
-                                  <option>Exposition photo</option>
-                                  <option>Festival</option>
-                                  <option>Conférence et Galas</option>
-                                  <option>Salon</option>
-                                  <option>Autres</option>
-                              </select>
-                              <span>|</span>
-                              <input type="text" placeholder=" debut" value="" id="dpd1" style="width:80px;" name="debut">
-                              <span>|</span>
-                              <input type="text" placeholder=" fin" value="" id="dpd2" style="width:80px;" name="fin">
-
-
-
-                              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                          </form>
-
-
-
-
-                      
-                     </div>
-                     </div>                    
-                     <div id="search_av"><span id="sva">Recherche avancée</span> 
+          </div>
+     </div>                    
+      
+     <div id="search_av">
+        <span id="sva">Recherche avancée</span> 
                        
-                       <div id="search_sub">
-                          
-                          <table style="width:100%">
-                            <tr>
-                              <td><label>Artistes</label></td>
-                              <td><input type="checkbox" id="art" value="artiste" checked=""></td>
-                            </tr>
+        <div id="search_sub">
+            <table style="width:100%">
+              <tr>
+                <td><label>Artistes</label></td>
+                <td><input type="checkbox" id="art" value="artiste" checked=""></td>
+              </tr>
 
-                            <tr>
-                              <td><label>Oeuvres</label></td>
-                              <td><input type="checkbox" id="oeu" value="oeuvre" checked=""></td>
-                            </tr>
+              <tr>
+                <td><label>Oeuvres</label></td>
+                <td><input type="checkbox" id="oeu" value="oeuvre" checked=""></td>
+              </tr>
 
-                            <tr>
-                              <td><label>Evénements</label></td>
-                              <td><input type="checkbox" id="eve" value="Evenement" checked=""></td>
-                            </tr>
-                          </table>
+              <tr>
+                <td><label>Evénements</label></td>
+                <td><input type="checkbox" id="eve" value="Evenement" checked=""></td>
+              </tr>
+            </table>
+        </div>
+     </div>
 
-                       </div>
-                     </div>
+     <div class="social">
+       
+       <span><a href='https://twitter.com/Vosartistes'><img src="images/twitter.png"></a></span>
+       <span><a href='vosartistes.com@gmail.com'><img src="images/google.png"></a></span>
+       <span><a href='https://www.facebook.com/vosartistes'><img src="images/facebook.png"></a></span>
+       <span><div class="fb-like" data-href="https://www.facebook.com/vosartistes" data-width="65" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div></span>
+     </div>
+     <br>
+    </div> 
+  </header>
+  
 
-                     <div class="social">
-                       
-                       <span><a href='https://twitter.com/Vosartistes'><img src="images/twitter.png"></a></span>
-                       <span><a href='vosartistes.com@gmail.com'><img src="images/google.png"></a></span>
-                       <span><a href='https://www.facebook.com/vosartistes'><img src="images/facebook.png"></a></span>
-                       <span><div class="fb-like" data-href="https://www.facebook.com/vosartistes" data-width="65" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div></span>
-                     </div>
-                      <br>
-                   </div> 
-            </header>
-            <section id="restart">
-
-            <section class="sec_article" style="height:500px;">
-              <!-- Carousel
-    ================================================== -->
+  <section id="restart">
+    
+    <section class="sec_article" style="height:500px;">
+              
+    <!-- Carousel ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div id="alaune"><img src="images/alaune.png"></div>
       
       <!-- Indicators -->
       <ol class="carousel-indicators">
-      <?php               
-      $event = requete_event('{"query":{"bool":{"must":[],"must_not":[],"should":[{"query_string":{"default_field":"event.title","query":"vernissage"}},{"query_string":{"default_field":"event.body","query":"Chahid"}},{"query_string":{"default_field":"event.place","query":"Rabat"}},{"range":{"event.pubDate":{"from":"11/05/2015","to":"15/05/2015"}}}]}},"from":0,"size":10,"sort":[],"facets":{}}');
-      $classact = array(' class="active"','');
-      for($i=0;$i<totale($event);$i++){ 
-        echo '<li data-target="#myCarousel" data-slide-to="'.$i.'"'.$classact[$i].'></li>';
-      }
-
-      ?>
-
+        <li data-target="#myCarousel" data-slide-to='0'></li>
+        <li data-target="#myCarousel" data-slide-to='1'></li>
       </ol>
+      
       <div class="carousel-inner" role="listbox">
-       <?php 
-              $items = array(' active','');
-              $alts = array('First','Second','Third','fourth','fifth','sixth','seventh','eighth','ninth','tenth');
-              for($i=0;$i<totale($event);$i++){       
-              echo '<div class="item'.$items[$i].'" style="width:960px !important;height:387px !important;">';
-          
-                          $imgs_event = images_event($event,$i);
-                          $p = pubDate_event_s($event,$i);
-                echo'<img src='.$imgs_event[count($imgs_event)-1].'   alt="'.$alts[$i].' slide" style="width:960px !important;height:387px !important;">';
-                          
-                    
-          
-            echo'<div class="carousel-caption">';
-            echo'<div class="citation">';
-                        echo'<div class="button">';
-                            echo'<a href="evenment.php?event='.titre_event($event,$i).'&du='.$p[0].'&au='.$p[1].'"> En savoir plus . . .</a>';
-                        echo'</div>';
-
-                        echo'<div class="rbutton">';
-                            echo'<a href="oeuvre.php">...</a>';
-                        echo'</div>';
-                        echo'<div class="citation_detail">';
-                            echo '<span>'.titre_event($event,$i).'</span>'; 
-                        echo'<p>';
-                          echo strip_tags(morcseau_event(body_event($event,$i)));
-                        echo'</p>';
-                        echo'</div>';
-                      
-                      
-              echo'</div>';
-              
-            echo'</div>';
-          
-            echo'</div>';
-        }
-        ?>
+        <div class="item0" style="width:960px !important;height:387px !important;">
+        <img src=''   alt=" first slide" style="width:960px !important;height:387px !important;">
+          <div class="carousel-caption">
+            <div class="citation">
+               <div class="button">
+                  <a href="#"> En savoir plus . . .</a>
+               </div>
+               <div class="rbutton"><a href="oeuvre.php">...</a></div>
+               <div class="citation_detail"><span>ccccccccccccc</span> 
+                  <p>xxxxxxxxxxxxxx</p>
+                </div>
+            </div>
+          </div>
+        </div>
         
+        <div class="carousel-inner" role="listbox">
+        <div class="item0" style="width:960px !important;height:387px !important;">
+        <img src=''   alt=" first slide" style="width:960px !important;height:387px !important;">
+          <div class="carousel-caption">
+            <div class="citation">
+               <div class="button">
+                  <a href="#"> En savoir plus . . .</a>
+               </div>
+               <div class="rbutton"><a href="oeuvre.php">...</a></div>
+               <div class="citation_detail"><span>ccccccccccccc</span> 
+                  <p>xxxxxxxxxxxxxx</p>
+                </div>
+            </div>
+          </div>
+        </div>
         
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
