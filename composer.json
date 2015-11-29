@@ -1,7 +1,0 @@
-{
-    "require": {
-        "elasticsearch/elasticsearch": "~1.0",
-        "rkr/xpath": "dev-master",
-        "phpmailer/phpmailer": "~5.2"
-    }
-}
